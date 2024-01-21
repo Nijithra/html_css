@@ -4,9 +4,22 @@
     padding: 10px;
     background-color: black;
 }
-
 .grid-item{
     margin:5px;
     background-color: aquamarine;
     padding:10px;
+}
+
+@media (max-width:1000px){
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+         
+}
+@media (max-width:1000px){
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+        background-color: black;
+    }
+         
 }
